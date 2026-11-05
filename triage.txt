@@ -1,0 +1,5 @@
+Pattern: 203.0.113.45 1 user 2 fails = Brute-force T1110.001
+Pattern: Spray = 1 IP 8 users = T1110.003 Password Spraying
+SubStatus 0xC000006A = wrong password, 0xC0000064 = user not exist
+Action if fail->success: Block IP, reset pwd, hunt 4624
+Result today: Q3 0 results = no compromise = good
